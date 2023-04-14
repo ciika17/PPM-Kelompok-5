@@ -192,11 +192,12 @@ class _ProfileDetailState extends State<ProfileDetail> {
                 borderRadius: BorderRadius.circular(16),
               ),
               child: const Center(
-                child: Text(
-                  "SIMPAN",
-                  style: TextStyle(
-                    fontWeight: FontWeight.bold,
-                    color: Colors.white,
+  child: Text(
+    "SIMPAN",
+    style: TextStyle(
+      fontWeight: FontWeight.bold,
+      color: Colors.white,
+      fontFamily: "Open Sans",
                   ),
                 ),
               ),
