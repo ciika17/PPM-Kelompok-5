@@ -30,8 +30,8 @@ class User {
     return User(
       id: 001,
       name: "Kelompok_4",
-      username: "timfour",
-      email: "timfour@email.com",
+      username: "tim4",
+      email: "timfour@mail.com",
       profilePhoto:
           "https://production.listennotes.com/podcasts/kelompok-4-dIpLGg96M_U-sXnJSNM1B8A.1400x1400.jpg",
       phoneNumber: "085123456789",
