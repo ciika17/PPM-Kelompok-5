@@ -17,24 +17,24 @@ class User {
 
   factory User.fromMap(Map<String, dynamic> map) {
     return User(
-      id: map["id"],
-      name: map["name"],
-      username: map["username"],
-      email: map["email"],
-      profilePhoto: map["profile_photo"],
-      phoneNumber: map["phone_number"],
+      id: map['id'] as int,
+      name: map['name'] as String,
+      username: map['username'] as String,
+      email: map['email'] as String,
+      profilePhoto: map['profile_photo'] as String?,
+      phoneNumber: map['phone_number'] as String?,
     );
   }
 
   factory User.dummy() {
     return User(
       id: 001,
-      name: "Kelompok_4",
-      username: "tim4",
-      email: "timfour@mail.com",
+      name: 'Kelompok_4',
+      username: 'tim4',
+      email: 'timfour@mail.com',
       profilePhoto:
-          "https://production.listennotes.com/podcasts/kelompok-4-dIpLGg96M_U-sXnJSNM1B8A.1400x1400.jpg",
-      phoneNumber: "085123456789",
+          'https://production.listennotes.com/podcasts/kelompok-4-dIpLGg96M_U-sXnJSNM1B8A.1400x1400.jpg',
+      phoneNumber: '085123456789',
     );
   }
 }
