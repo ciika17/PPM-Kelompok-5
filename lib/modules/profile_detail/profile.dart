@@ -43,6 +43,11 @@ class _ProfileDetailState extends State<ProfileDetail> {
           SizedBox(
             height: MediaQuery.of(context).padding.top,
           ),
+          CircleAvatar(
+  radius: 50,
+  backgroundImage: NetworkImage(widget.user.photoUrl),
+),
+
           const SizedBox(
             height: 16,
           ),
