@@ -29,12 +29,12 @@ class User {
   factory User.dummy() {
     return User(
       id: 001,
-      name: 'SandyRustasndy',
+      name: 'SandyRustandy',
       username: '2006048',
-      email: '2006048itg@ac.id',
+      email: '2006048@itgac.id',
       profilePhoto:
           'https://production.listennotes.com/podcasts/kelompok-4-dIpLGg96M_U-sXnJSNM1B8A.1400x1400.jpg',
-      phoneNumber: '085123456789',
+      phoneNumber: '085794553203',
     );
   }
 }
