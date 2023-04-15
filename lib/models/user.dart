@@ -29,9 +29,9 @@ class User {
   factory User.dummy() {
     return User(
       id: 001,
-      name: 'Kelompok_4',
-      username: 'tim4',
-      email: 'timfour@mail.com',
+      name: 'SandyRustasndy',
+      username: '2006048',
+      email: '2006048itg@ac.id',
       profilePhoto:
           'https://production.listennotes.com/podcasts/kelompok-4-dIpLGg96M_U-sXnJSNM1B8A.1400x1400.jpg',
       phoneNumber: '085123456789',
